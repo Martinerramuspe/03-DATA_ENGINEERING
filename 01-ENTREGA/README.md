@@ -14,4 +14,5 @@ Se adjunta: BLOQUE DE CODIGO.py  y  BASE DE DATOS.sql .Para si evaluacion.
 * Aveces, solo es cuestion de reiniciar el programa para que funcione el codigo.
 * La importancia de la instalacion de los pip en la terminal.
 * Diferencias entre un archivo "py" y un archivo "ipynb".
+* El formato BIGINT, en mysql.
   
