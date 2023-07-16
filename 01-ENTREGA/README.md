@@ -8,3 +8,10 @@ Cada uno de estos datos conforman una parte de lo que es la vela japonesa (instr
 
 Se procedio tambien, a la tranformacion de esa informacion fuente, a un "dataframe", para luego ser volcado a una "base de datos".
 Se adjunta: BLOQUE DE CODIGO.py  y  BASE DE DATOS.sql .Para si evaluacion.
+
+
+#### EXPERIENCIAS:
+* Aveces, solo es cuestion de reiniciar el programa para que funcione el codigo.
+* La importancia de la instalacion de los pip en la terminal.
+* Diferencias entre un archivo "py" y un archivo "ipynb".
+  
