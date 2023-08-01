@@ -1,1 +1,1 @@
-Extraeremos el historial de operaciones realizadas en una plataforma de BingX , en una cuenta de futuros
+Extraccion de informacion de planillas excel sheets de google drive , para la manipulacion en python y la depositacion en un data  lake en un PostgreSQL.
