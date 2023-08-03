@@ -1,4 +1,4 @@
-##  DATOS SENCIBLES 
+##  DATOS SENSIBLES 
 ![](https://github.com/Martinerramuspe/PICTURE/blob/main/SENSIBLE.png)
 
 La "EMPRESA-A", no cuenta con la tecnologia suficiente para resolver ciertas cuestiones de su base de datos, porque lo que recurre a contratar a la "EMPRESA-B" y a la "EMPRESA-C". Pero hay un problema, la base de datos es muy senSible
