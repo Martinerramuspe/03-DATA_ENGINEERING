@@ -10,9 +10,9 @@ Se procedio tambien, a la tranformacion de esa informacion fuente, a un "datafra
 Se adjunta: BLOQUE DE CODIGO.py  y  BASE DE DATOS.sql .Para si evaluacion.
 
 
-#### EXPERIENCIAS:
-* Aveces, solo es cuestion de reiniciar el programa para que funcione el codigo.
-* La importancia de la instalacion de los pip en la terminal.
-* Diferencias entre un archivo "py" y un archivo "ipynb".
-* El formato BIGINT, en mysql.
+#### RESUMEN:
+* EXTRACCION DE INFORMACION EN BINANCE.
+* TRANSFORMACION EN DATAFRAME USANDO PYTHON.
+* VUELCO DE DATOS ESTRUCTURADOS EN BASE DE DATOS MYSQL.
+
   
