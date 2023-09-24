@@ -1,5 +1,13 @@
-Extraccion de informacion de planillas excel sheets de google drive , para la manipulacion en python y la depositacion en un data  lake dePostgreSQL. 
+# EXTRACCION DE INFORMACION DRIVE
+Este proyecto tiene como objetivo la extraccion de datos estructurados , de una planillas sheets en drive,
+para luego ser transformado y volcado a una base de datos segun una necesidad.
+               
+![](https://github.com/Martinerramuspe/PICTURE/blob/main/sheets.png)
 
-* aclaracion 1: En el proceso de transformacion a un datafrane, se aplica un proceso de filtrado de renglones repetidos (la solucion que propuse creo que es ineficiente porque crea 2 dataframes, ocupando espacio). 
-* Aclaracion 2: Para la extraccion de info de un archivo drive, se solicitan permisos, que se encuentran en el archivo json adjunto.
-* Aclaracion 3: Estoy en falta con lo de base de datos de aws redshift (me estoy asesorando con el personal de coder para solucionarlo en estos dias), por lo que avance de forma temporal con una base de datos en PostgreSQL. 
+Este proceso se realizo de forma manual usando script de python. 
+
+#### RESUMEN:
+* Importacion y autenticado de credenciales  google.
+* Lectura he importancion de datos estructurados de drive a  python.
+* Transformacion de datos
+* Carga a base de datos local.
