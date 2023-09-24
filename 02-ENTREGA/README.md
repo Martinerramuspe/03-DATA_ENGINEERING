@@ -4,7 +4,7 @@ para luego ser transformado y volcado a una base de datos segun una necesidad.
                
 ![](https://github.com/Martinerramuspe/PICTURE/blob/main/sheets.png)
 
-Este proceso se realizo de forma manual usando script de python. 
+Este proceso se realizo de forma manual usando script de python (MODELO.py). 
 
 #### RESUMEN:
 * Importacion y autenticado de credenciales  google.
