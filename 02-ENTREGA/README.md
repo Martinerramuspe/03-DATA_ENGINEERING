@@ -1,13 +1,29 @@
-# EXTRACCION DE INFORMACION DRIVE
-Este proyecto tiene como objetivo la extraccion de datos estructurados , de una planillas sheets en drive,
-para luego ser transformado y volcado a una base de datos segun una necesidad.
-               
+# Extracción y Carga de Datos desde Google Drive
+
+Este proyecto tiene como fin, extraer datos estructurados de una hoja de cálculo de Google Sheets alojada en Google Drive y transformarlos antes de cargarlos en una base de datos local según necesidades específicas.
+
 ![](https://github.com/Martinerramuspe/PICTURE/blob/main/sheets.png)
 
-Este proceso se realizo de forma manual usando script de python (MODELO.py). 
+## Objetivo del Proyecto
 
-#### RESUMEN:
-* Importacion y autenticado de credenciales  google.
-* Lectura he importancion de datos estructurados de drive a  python.
-* Transformacion de datos
-* Carga a base de datos local.
+El propósito principal de este proyecto es automatizar el proceso de extracción, transformación y carga (ETL) de datos desde Google Drive hacia una base de datos local utilizando un script de Python. Esto facilita la gestión y análisis de datos provenientes de hojas de cálculo en la nube.
+## Proceso ETL
+
+1. **Autenticación de Credenciales**: Se importan y autentican las credenciales de Google para acceder a Google Drive y Sheets.
+
+2. **Extracción de Datos**: Los datos estructurados se leen e importan desde Google Drive a Python utilizando la API de Google.
+
+3. **Transformación de Datos**: Los datos se transforman según los requisitos del proyecto. Esto puede incluir limpieza, formatos de fecha u otras transformaciones necesarias.
+
+4. **Carga en la Base de Datos**: Los datos transformados se cargan en una base de datos local PostgreSQL utilizando SQLAlchemy. La tabla se crea automáticamente a partir de los datos.
+
+## Instrucciones de Uso
+
+Antes de utilizar el script `MODELO.py`, sigue estos pasos:
+
+1. **Configuración de Credenciales Google**: Asegúrate de que las credenciales de Google necesarias para acceder a Google Drive y Google Sheets estén correctamente configuradas. Esto incluye el archivo JSON de credenciales y el acceso a la hoja de cálculo.(Por cuestiones de privacidad esta informacion es brindado al publico).
+
+2. **Dependencias**: Asegúrate de que todas las bibliotecas y dependencias necesarias estén instaladas. Puedes instalarlas utilizando `pip` con el comando:
+
+   ```bash
+   pip install pandas gspread oauth2client sqlalchemy psycopg2 requests
