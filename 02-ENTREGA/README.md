@@ -21,7 +21,7 @@ El propósito principal de este proyecto es automatizar el proceso de extracció
 
 Antes de utilizar el script `MODELO.py`, sigue estos pasos:
 
-1. **Configuración de Credenciales Google**: Asegúrate de que las credenciales de Google necesarias para acceder a Google Drive y Google Sheets estén correctamente configuradas. Esto incluye el archivo JSON de credenciales y el acceso a la hoja de cálculo.(Por cuestiones de privacidad esta informacion es brindado al publico).
+1. **Configuración de Credenciales Google**: Asegúrate de que las credenciales de Google necesarias para acceder a Google Drive y Google Sheets estén correctamente configuradas. Esto incluye la obtención de un archivo JSON de credenciales desde [enlace a la consola de desarrolladores de Google](https://console.cloud.google.com/apis/credentials) y la autorización de acceso a la hoja de cálculo. Asegúrate de tener estas credenciales disponibles y listas antes de ejecutar el script.
 
 2. **Dependencias**: Asegúrate de que todas las bibliotecas y dependencias necesarias estén instaladas. Puedes instalarlas utilizando `pip` con el comando:
 
