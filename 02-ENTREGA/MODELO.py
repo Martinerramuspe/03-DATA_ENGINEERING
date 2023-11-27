@@ -8,7 +8,7 @@ import requests
 from datetime import datetime
 
 # Cargar las credenciales desde el archivo JSON en GitHub
-json_url = "https://raw.githubusercontent.com/Martinerramuspe/06-ADJUNTOS/main/prueba.json" #importante el "raw"
+json_url = "https://raw.githubusercontent.com/Martinerramuspe/04-ADJUNTOS/main/prueba.json" #importante el "raw"
 response = requests.get(json_url)
 google_credentials = json.loads(response.text)
 
